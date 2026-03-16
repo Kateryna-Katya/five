@@ -1,6 +1,3 @@
-/**
- * Xpert-Link.fit | Official Premium Script 2026
- */
 
 document.addEventListener('DOMContentLoaded', () => {
     

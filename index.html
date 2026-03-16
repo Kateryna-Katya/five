@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $domainTitle ?> — IT-школа нового поколения</title>
     
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%232563eb%22/><path d=%22M30 30L70 70M70 30L30 70%22 stroke=%22white%22 stroke-width=%2212%22 stroke-linecap=%22round%22/></svg>">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2225%22 fill=%22%238B5CF6%22/><path d=%22M30 70L50 30L70 70M50 30V60%22 stroke=%22white%22 stroke-width=%2210%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22/></svg>">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Sora:wght@600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -46,45 +45,48 @@
     </header>
 
     <main>
-        <section class="hero" id="hero">
-            <div class="container hero__container">
-                <div class="hero__content">
-                    <div class="hero__badge fade-in">
-                        <span class="badge__dot"></span>
-                        <span class="badge__text">Платформа года в Европе</span>
-                    </div>
-                    <h1 class="hero__title">
-                        Постройте карьеру, которая <span class="text-gradient">работает на вас</span>
-                    </h1>
-                    <p class="hero__description fade-in">
-                        <?= $domainTitle ?> — это инновационная технология обучения IT-профессиям. Мы объединяем передовую цифровую инфраструктуру и практики, применимые уже сегодня.
-                    </p>
-                    <div class="hero__actions fade-in">
-                        <a href="#contact" class="btn btn--primary">
-                            <span>Начать сейчас</span>
-                            <i data-lucide="zap"></i>
-                        </a>
-                        <a href="#courses" class="btn btn--outline">
-                            <span>Узнать детали</span>
-                        </a>
-                    </div>
-                    
-                    <div class="hero__stats fade-in">
-                        <div class="stat-item">
-                            <span class="stat-item__num">1200+</span>
-                            <span class="stat-item__label">студентов во Франции</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-item__num">98%</span>
-                            <span class="stat-item__label">трудоустройства</span>
-                        </div>
-                    </div>
+<section class="hero" id="hero">
+    <div class="container hero__container">
+        <div class="hero__content">
+            <div class="hero__badge fade-in">
+                <span class="badge__dot"></span>
+                <span class="badge__text">Лидер цифрового образования 2026</span>
+            </div>
+
+            <h1 class="hero__title">
+                Проектируйте будущее, в котором <span class="text-gradient">вы — главный архитектор</span>
+            </h1>
+
+            <p class="hero__description fade-in">
+                <?= $domainTitle ?> — это экосистема трансформации навыков. Мы переосмыслили IT-образование, объединив
+                нейронные интерфейсы обучения и опыт ведущих инженеров Европы.
+            </p>
+
+            <div class="hero__actions fade-in">
+                <a href="#contact" class="btn btn--primary">
+                    <span>Запустить прогресс</span>
+                    <i data-lucide="rocket"></i> </a>
+                <a href="#courses" class="btn btn--outline">
+                    <span>Смотреть траектории</span>
+                </a>
+            </div>
+
+            <div class="hero__stats fade-in">
+                <div class="stat-item">
+                    <span class="stat-item__num">2.5k+</span>
+                    <span class="stat-item__label">выпускников в ЕС</span>
                 </div>
-        
-                <div id="hero-visual" class="hero__visual-webgl">
+                <div class="stat-item">
+                    <span class="stat-item__num">99.2%</span>
+                    <span class="stat-item__label">Success Rate</span>
                 </div>
             </div>
-        </section>
+        </div>
+
+        <div id="hero-visual" class="hero__visual-webgl">
+        </div>
+    </div>
+</section>
         <section class="courses" id="courses">
             <div class="container">
                 <div class="section-header">
@@ -146,194 +148,180 @@
                 </div>
             </div>
         </section>
-        <section class="benefits" id="benefits">
-            <div class="container">
-                <div class="benefits__grid">
-                    <div class="benefits__content">
-                        <h2 class="section-title">Почему выбирают <br><span class="text-gradient">наши технологии</span></h2>
-                        <p class="section-subtitle">Мы создали среду, где обучение превращается в технологический процесс с гарантированным результатом.</p>
-                        
-                        <div class="benefits__main-card" data-aos="fade-right">
-                            <div class="benefits__main-icon">
-                                <i data-lucide="cpu"></i>
+<section class="benefits" id="benefits">
+    <div class="container">
+        <div class="benefits__grid">
+            <div class="benefits__content">
+                <h2 class="section-title">Инженерный подход к <br><span class="text-gradient">вашему успеху</span></h2>
+                <p class="section-subtitle">Мы превратили передачу знаний в высокоточный процесс, где каждый алгоритм
+                    настроен на ваш результат.</p>
+
+                <div class="benefits__main-card" data-aos="fade-right">
+                    <div class="benefits__main-icon">
+                        <i data-lucide="brain-circuit"></i>
+                    </div>
+                    <div>
+                        <h4>Адаптивный AI-когнитивный движок</h4>
+                        <p>Наша платформа анализирует ваш темп и подстраивает сложность в реальном времени.
+                            Эффективность усвоения hard-skills выше на 45% по сравнению с классическим подходом.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="benefits__cards">
+                <div class="benefit-item" data-aos="zoom-in">
+                    <div class="benefit-item__icon"><i data-lucide="zap"></i></div>
+                    <h3>Иммерсивный старт</h3>
+                    <p>Никакого «порога вхождения». Погружение в практику с первого часа через симуляции реальных
+                        кейсов.</p>
+                </div>
+
+                <div class="benefit-item" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="benefit-item__icon"><i data-lucide="clover"></i></div>
+                    <h3>Глобальный Стек 2026</h3>
+                    <p>Облачная инфраструктура с доступом к мощностям и инструментам, которые используют топ-корпорации
+                        мира.</p>
+                </div>
+
+                <div class="benefit-item" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="benefit-item__icon"><i data-lucide="shield-check"></i></div>
+                    <h3>Интеллектуальный менторинг</h3>
+                    <p>Система поддержки «High-Touch»: экспертное сопровождение и нейросетевые подсказки в режиме 24/7.
+                    </p>
+                </div>
+
+                <div class="benefit-item" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="benefit-item__icon"><i data-lucide="bar-chart-big"></i></div>
+                    <h3>Масштабирование дохода</h3>
+                    <p>Мы строим не просто карьеру, а стратегию капитализации ваших навыков на международном рынке.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="method" id="method">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Алгоритм вашей <span class="text-gradient">трансформации</span></h2>
+            <p class="section-subtitle">Проектируем вашу карьеру по стандартам ведущих тех-хабов Европы: от
+                фундаментальных основ до интеграции в глобальный рынок.</p>
+        </div>
+
+        <div class="method__list">
+            <div class="method__item" data-aos="fade-up">
+                <div class="method__info">
+                    <span class="step-num">01</span>
+                    <h3>Цифровой фундамент</h3>
+                    <p>Глубокое погружение в архитектуру систем и логику кода. Гибкая платформа позволяет осваивать базу
+                        в адаптивном темпе, фокусируясь на концепциях, которые не устареют завтра.</p>
+                </div>
+                <div class="method__image-box">
+                    <span class="image-label">Logic Synthesis</span>
+                </div>
+            </div>
+
+            <div class="method__item" data-aos="fade-up" data-aos-delay="100">
+                <div class="method__info">
+                    <span class="step-num">02</span>
+                    <h3>Инженерная валидация</h3>
+                    <p>Переход от теории к Production-ready решениям. Вы создаете архитектуру реальных сервисов под
+                        контролем AI-анализаторов кода и практикующих лидов.</p>
+                </div>
+                <div class="method__image-box">
+                    <span class="image-label">Stress Testing</span>
+                </div>
+            </div>
+
+            <div class="method__item" data-aos="fade-up" data-aos-delay="200">
+                <div class="method__info">
+                    <span class="step-num">03</span>
+                    <h3>Индустриальный апгрейд</h3>
+                    <p>Менторство уровня High-Senior. Финальная шлифовка навыков на кросс-платформенных проектах и
+                        подготовка к интеграции в европейскую рабочую среду.</p>
+                </div>
+                <div class="method__image-box">
+                    <span class="image-label">Global Delivery</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="reviews" id="reviews">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">География <span class="text-gradient">успеха</span></h2>
+            <p class="section-subtitle">Наши выпускники формируют технологический ландшафт крупнейших компаний Европы и мира.</p>
+        </div>
+
+        <div class="swiper reviews-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="review-card">
+                        <div class="review-card__user">
+                            <div class="avatar-wrapper">
+                                <img src="/img/one.jpg" alt="Marc Antoine" class="review-card__avatar">
                             </div>
                             <div>
-                                <h4>Инновационная технология обучения</h4>
-                                <p>Используем AI-инструменты для реальных задач, что позволяет сократить время освоения материала на 40%.</p>
+                                <h4>Marc Antoine</h4>
+                                <span class="user-position">Senior Frontend / Dassault Systèmes</span>
                             </div>
                         </div>
+                        <p class="review-card__text">«Переход на инструментарий <?= $domainTitle ?> стал поворотной точкой. Это не просто курсы, а полноценный инженерный инкубатор. Теперь архитектурные решения, которые мы внедряем, задают стандарты в отрасли.»</p>
+                        <div class="review-card__footer">
+                            <div class="review-card__rating">
+                                <i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i>
+                            </div>
+                            <i data-lucide="quote" class="quote-icon"></i>
+                        </div>
                     </div>
-        
-                    <div class="benefits__cards">
-                        <div class="benefit-item" data-aos="zoom-in">
-                            <div class="benefit-item__icon"><i data-lucide="rocket"></i></div>
-                            <h3>Быстрый и лёгкий старт</h3>
-                            <p>Легко разобраться без опыта. Пошаговая адаптация без сложностей с первого дня.</p>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="review-card">
+                        <div class="review-card__user">
+                            <div class="avatar-wrapper">
+                                <img src="/img/three.jpg" alt="Елена Соколова" class="review-card__avatar">
+                            </div>
+                            <div>
+                                <h4>Елена Соколова</h4>
+                                <span class="user-position">Data Lead / Freelance, Paris</span>
+                            </div>
                         </div>
-        
-                        <div class="benefit-item" data-aos="zoom-in" data-aos-delay="100">
-                            <div class="benefit-item__icon"><i data-lucide="layers"></i></div>
-                            <h3>Передовая инфраструктура</h3>
-                            <p>Доступ к платформе открыт из любой точки мира. Технологии, которые работают на вас.</p>
+                        <p class="review-card__text">«Меня поразила бесшовная адаптация программы под мой бэкграунд. За 6 месяцев я прошла путь от базового анализа до проектирования прогнозных моделей для французского ритейла. Платформа — абсолютный must-have.»</p>
+                        <div class="review-card__footer">
+                            <div class="review-card__rating">
+                                <i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i>
+                            </div>
+                            <i data-lucide="quote" class="quote-icon"></i>
                         </div>
-        
-                        <div class="benefit-item" data-aos="zoom-in" data-aos-delay="200">
-                            <div class="benefit-item__icon"><i data-lucide="users"></i></div>
-                            <h3>Экспертная поддержка</h3>
-                            <p>Методологии, доказавшие эффективность, и поддержка по всем вопросам 24/7.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="review-card">
+                        <div class="review-card__user">
+                            <div class="avatar-wrapper">
+                                <img src="/img/two.jpg" alt="Julien Bernard" class="review-card__avatar">
+                            </div>
+                            <div>
+                                <h4>Julien Bernard</h4>
+                                <span class="user-position">AI Systems Engineer</span>
+                            </div>
                         </div>
-        
-                        <div class="benefit-item" data-aos="zoom-in" data-aos-delay="300">
-                            <div class="benefit-item__icon"><i data-lucide="trending-up"></i></div>
-                            <h3>Стратегия роста</h3>
-                            <p>Программа, нацеленная на пассивный доход и карьерный апгрейд на базе инноваций.</p>
+                        <p class="review-card__text">«Система менторства здесь работает на опережение. Когда мы внедряли нейросети в проект, экспертиза лидов сэкономила нам месяцы разработки. Это лучший способ быстро войти в High-Tech рынок.»</p>
+                        <div class="review-card__footer">
+                            <div class="review-card__rating">
+                                <i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i>
+                            </div>
+                            <i data-lucide="quote" class="quote-icon"></i>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="method" id="method">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Ваш путь к <span class="text-gradient">офферу</span></h2>
-                    <p class="section-subtitle">Пошаговый путь, понятный каждому: от первой строчки кода до работы в Европе.</p>
-                </div>
-                
-                <div class="method__list">
-                    <div class="method__item" data-aos="fade-up">
-                        <div class="method__info">
-                            <span class="step-num">01</span>
-                            <h3>Глубокая теория</h3>
-                            <p>Изучаете базу по методологии «от простого к сложному». Доступ к платформе открыт 24/7. Передовая цифровая инфраструктура позволяет учиться в своем темпе.</p>
-                        </div>
-                        <div class="method__image-box">Step 01</div>
-                    </div>
-        
-                    <div class="method__item" data-aos="fade-up">
-                        <div class="method__info">
-                            <span class="step-num">02</span>
-                            <h3>Hard-практика</h3>
-                            <p>Решения, которые меняют правила игры. Вы пишете код, который работает в реальных условиях под присмотром опытных наставников.</p>
-                        </div>
-                        <div class="method__image-box">Step 02</div>
-                    </div>
-        
-                    <div class="method__item" data-aos="fade-up">
-                        <span class="step-num">03</span>
-                        <h3>Менторство & Стажировка</h3>
-                        <p>Экспертная поддержка на всех этапах. Разбор ваших ошибок действующими Tech-лидами и практика на реальных французских проектах.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="reviews" id="reviews">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Истории <span class="text-gradient">успеха</span></h2>
-                    <p class="section-subtitle">Наши выпускники работают в ведущих технологических хабах Европы.</p>
-                </div>
-        
-                <div class="swiper reviews-slider">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="review-card">
-                                <div class="review-card__user">
-                                    <img src="/img/one.jpg" alt="Student" class="review-card__avatar">
-                                    <div>
-                                        <h4>Marc Antoine</h4>
-                                        <span>Frontend в Dassault Systèmes</span>
-                                    </div>
-                                </div>
-                                <p class="review-card__text">«Технология нового поколения — это не просто слова. Обучение в <?= $domainTitle ?> перевернуло моё понимание разработки. Решения, которые меняют правила игры, теперь часть моей ежедневной работы.»</p>
-                                <div class="review-card__rating">
-                                    <i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i>
-                                </div>
-                            </div>
-                        </div>
-        
-                        <div class="swiper-slide">
-                            <div class="review-card">
-                                <div class="review-card__user">
-                                    <img src="/img/three.jpg" alt="Student" class="review-card__avatar">
-                                    <div>
-                                        <h4>Елена Соколова</h4>
-                                        <span>Data Analyst (Freelance, Paris)</span>
-                                    </div>
-                                </div>
-                                <p class="review-card__text">«Легко разобраться даже без опыта. Пошаговый путь, понятный каждому, позволил мне сменить профессию за полгода. Платформа года, без преувеличений!»</p>
-                                <div class="review-card__rating">
-                                    <i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i>
-                                </div>
-                            </div>
-                        </div>
-        
-                        <div class="swiper-slide">
-                            <div class="review-card">
-                                <div class="review-card__user">
-                                    <img src="/img/two.jpg" alt="Student" class="review-card__avatar">
-                                    <div>
-                                        <h4>Julien Bernard</h4>
-                                        <span>Junior AI Engineer</span>
-                                    </div>
-                                </div>
-                                <p class="review-card__text">«Экспертная поддержка на всех этапах. Когда я застрял на проекте с нейросетями, менторы помогли переосмыслить подход. Это было лучшим вложением в карьеру.»</p>
-                                <div class="review-card__rating">
-                                    <i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="review-card">
-                                <div class="review-card__user">
-                                    <img src="/img/one.jpg" alt="Student" class="review-card__avatar">
-                                    <div>
-                                        <h4>Marc Antoine</h4>
-                                        <span>Frontend в Dassault Systèmes</span>
-                                    </div>
-                                </div>
-                                <p class="review-card__text">«Технология нового поколения — это не просто слова. Обучение в <?= $domainTitle ?> перевернуло моё понимание разработки. Решения, которые меняют правила игры, теперь часть моей ежедневной работы.»</p>
-                                <div class="review-card__rating">
-                                    <i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i>
-                                </div>
-                            </div>
-                        </div>
-        
-                        <div class="swiper-slide">
-                            <div class="review-card">
-                                <div class="review-card__user">
-                                    <img src="/img/three.jpg" alt="Student" class="review-card__avatar">
-                                    <div>
-                                        <h4>Елена Соколова</h4>
-                                        <span>Data Analyst (Freelance, Paris)</span>
-                                    </div>
-                                </div>
-                                <p class="review-card__text">«Легко разобраться даже без опыта. Пошаговый путь, понятный каждому, позволил мне сменить профессию за полгода. Платформа года, без преувеличений!»</p>
-                                <div class="review-card__rating">
-                                    <i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i>
-                                </div>
-                            </div>
-                        </div>
-        
-                        <div class="swiper-slide">
-                            <div class="review-card">
-                                <div class="review-card__user">
-                                    <img src="/img/two.jpg" alt="Student" class="review-card__avatar">
-                                    <div>
-                                        <h4>Julien Bernard</h4>
-                                        <span>Junior AI Engineer</span>
-                                    </div>
-                                </div>
-                                <p class="review-card__text">«Экспертная поддержка на всех этапах. Когда я застрял на проекте с нейросетями, менторы помогли переосмыслить подход. Это было лучшим вложением в карьеру.»</p>
-                                <div class="review-card__rating">
-                                    <i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i><i data-lucide="star" class="fill"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-        </section>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
         <section class="contact" id="contact">
             <div class="container contact__container">
                 <div class="contact__info">
